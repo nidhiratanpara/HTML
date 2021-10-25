@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+ <head>
+  <title>About Us</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+ <div class="hd">
+	<div class="logocontainer">
+		<a href="aboutus.html"><img src="../images/logo.png" alt="image" height="100%" width="100%"/></a>
+	</div>
+	<div class="links">
+		<nav>
+		<a class="menu" href="index.html">HOME</a>
+		<a class="menu" href="aboutus.html">ABOUT US</a>
+		<a class="menu" href="menu.html">MENU</a>
+		<a class="menu" href="contactus.html">CONTACT US</a>
+		</nav>
+	</div>
+  </div>
+
+
+  <div>
+  <table>
+  <tr>
+	<td><img src="../images/11.jpg" width="100%" height="100%" alt="image"/></td>
+  </tr>
+  </table>
+  </div>
+
+<div class="auoutus">About Us</div>
+<div class="aboutclass">
+Brand Since 2000.we are one of thr top 10 Restuarant in india,we provide all <br>
+variety of dishes ,like South,North and Chinese etc,We provide all type of Services.We<br>
+provide both veg and Non-veg. We provide catering service.We provide Home Delivery.
+</div>
+
+ <div class="foo">
+<div class="footext">Testy foods,<br>
+1<sup>st</sup>floor,<br>
+above jspiders,<br>
+old airpoet road,<br>
+banglore-560043<br>
+For shipping <i class="fa fa-truck"></i> call 9999999999</div>
+<div class="text2">
+Copyright &copy; : ISO 9001:2018 &reg; Tasty Foods &trade;
+</div>
+</div>
+  </body>
+  </html>

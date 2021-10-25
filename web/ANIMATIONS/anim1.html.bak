@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 3px dotted black;
+    animation-name: colorchange;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+    }
+p
+{
+    text-align: center;
+    padding-top: 135px;
+    color: white;
+}
+    @keyframes colorchange {
+    5% {background-color: green;}
+    25% {background-color: red;}
+    50% {background-color: blue;}
+    75% {background-color: orange;}
+    100% {background-color: black;}    
+}
+
+</style>
+</head>
+<body>
+<div><p>color changing animation</p></div>
+
+</body>
+</html>

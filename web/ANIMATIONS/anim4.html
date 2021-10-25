@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    animation-name: slidean;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;;
+    }
+p
+{
+	font-size:30px;
+    text-align: center;
+    padding-top: 150px;
+    color:white;
+}
+    @keyframes slidean {
+        from{
+            margin-top: 70%;
+            width:50%;
+            height: 20%;
+            background-color: red;
+            }
+        to{
+            margin-top: 0%;
+            width: 100%;
+            height: 50%;
+            background-color: blue;
+        }
+    }
+
+</style>
+</head>
+<body>
+<div><p>sliding animation from bottom to top and reverse</p></div>
+
+</body>
+</html>

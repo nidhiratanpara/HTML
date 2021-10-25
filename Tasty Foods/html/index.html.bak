@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Testy Foods</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../images/1.jpg"/>
+  <style>
+  body
+  {
+  font-family:"lato",sans-serif;
+  }
+.hd
+{
+position:fixed;
+background-color:#c0c0c0;
+width:100%;
+z-index:999;
+display:inline-block;
+}
+.logocontainer
+{
+display:inline-block;
+width:300px;
+float:left;
+height:150px;
+}
+a
+{
+color:black;
+text-decoration:none;
+}
+.menu
+{
+font-size:40px;
+margin-right: 40px;
+margin-left: 25px;
+}
+.menu:hover
+{
+color:#f8143c;
+transition:0.3s  ease-in-out;
+}
+.links
+{
+margin-top: 50px;
+display:inline-block;
+text-align:center;
+}
+.homebg
+{
+width:100%;
+padding-top:160px;
+position:relative;
+height:520px;
+}
+.tabcontent
+{
+margin-top:30px;
+margin-left:3%;
+margin-right:4%;
+font-size:30px;
+text-align:center;
+color:#8c8c8c;
+font-weight:bold;
+}
+.imgtext
+{
+position:absolute;
+top:305px;
+color:white;
+font-size:40px;
+width:30%;
+border:4px solid #336600;
+background-color:rgba(0,220,0,0.2);
+border-radius:20px;
+margin-left:430px;
+padding:25px;
+}
+.book
+{
+border:2px solid  #330000;
+background-color:#884e4d;
+color:white;
+width:70%;
+margin:0px auto;
+border-radius:50px;
+font-size:60px;
+text-align:center;
+}
+.book:hover
+{
+width:80%;
+transition:0.5s;
+font-size:70px;
+}
+.book h1 a
+{
+color:white;
+}
+.fire
+{
+width:900px;
+margin:20px 10%;
+text-align:center;
+}
+.fireimg:hover
+{
+height:600px;
+width:1000px;
+transition:0.5s;
+}
+.foo
+{
+background-color:#c0c0c0;
+width:100%;
+color:white;
+font-size:30px;
+padding:30px 50px;
+}
+.footext
+{
+padding-left:60px;
+}
+.text2
+{
+text-align:center;
+}
+  </style>
+ </head>
+ <body>
+  <div class="hd">
+	<div class="logocontainer">
+		<a href="index.html"><img src="../images/logo.png" alt="image" height="100%" width="100%"/></a>
+	</div>
+	<div class="links">
+		<nav>
+		<a class="menu" href="index.html">HOME</a>
+		<a class="menu" href="aboutus.html">ABOUT US</a>
+		<a class="menu" href="menu.html">MENU</a>
+		<a class="menu" href="contactus.html">CONTACT US</a>
+		</nav>
+	</div>
+  </div>
+<div class="homebg">
+<img src="../images/home_bg.jpg" alt="image" height="100%" width="100%"/>
+<div class="imgtext">
+<h2>Exotic dining </h2>
+</div>
+</div>
+
+<div class="tabcontent">
+<table border=0 cellspacing="20px">
+<tr>
+	<td><img src="../images/1.jpg" alt="image" width="600px" height="400px"/></td>
+	<td><img src="../images/2.jpg" width="600px" height="400px" alt="image"/></td>
+</tr>
+<tr>
+	<td>Chicken Leg Piece</td>
+	<td>Fish Fry</td>
+</tr>
+<tr>
+	<td><img src="../images/3.jpg" width="600px" height="400px" alt="image"/></td>
+	<td><img src="../images/4.jpg" width="600px" height="400px" alt="image"/></td>
+</tr>
+<tr>
+	<td>Chicken Burger</td>
+	<td>Chicken Wings</td>
+</tr>
+<tr>
+	<td><img src="../images/5.jpg" width="600px" height="400px" alt="image"/></td>
+	<td><img src="../images/6.jpg" width="600px" height="400px" alt="image"/></td>
+</tr>
+<tr>
+	<td>Veg Burger</td>
+	<td>Ice Cream Sundae</td>
+</tr>
+<tr>
+	<td><img src="../images/9.jpg" width="600px" height="400px" alt="image"/></td>
+	<td><img src="../images/11.jpg" width="600px" height="400px" alt="image"/></td>
+</tr>
+<tr>
+	<td>Bulls Eye</td>
+	<td>South Meal</td>
+</tr>
+</table>
+</div>
+<div class="book">
+<h1><a href="content.html">book a table</a>
+</h1></div>
+<div class="fire">
+<img src="../images/fire.jpg" class="fireimg" alt="image"  width="900px" height="500px"/>
+</div>
+
+<div class="foo">
+<div class="footext">Testy foods,<br>
+1<sup>st</sup>floor,<br>
+above jspiders,<br>
+old airpoet road,<br>
+banglore-560043<br>
+For shipping <i class="fa fa-truck"></i> call 9999999999</div>
+<div class="text2">
+Copyright &copy; : ISO 9001:2018 &reg; Tasty Foods &trade;
+</div>
+</div>
+ </body>
+</html>
+
+
+
+
+
